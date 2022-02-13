@@ -21,7 +21,7 @@ func main() {
 	// Output: &{request:0xc00014a000 client:0xc00007ac90 address:https://yakuter.com}
 }
 
-// Req is main struct for requests
+// Req is the main struct for requests
 type Req struct {
 	request *http.Request
 	client  *http.Client

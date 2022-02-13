@@ -4,7 +4,7 @@ Go packages are generally start with a main struct and the package initiates and
 In this repo I wanted to show and idiomatic way to fill a struct. This is generally used with "options" parameters. So I called it optinator. Hope you find it helpful.
 
 Example usage:
-```
+```go
 func main() {
 	req := NewReq(
 		WithAddress("https://yakuter.com"),

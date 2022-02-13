@@ -1,7 +1,7 @@
 # optinator
 Go packages are generally start with a main struct and the package initiates and fills that struct in the beginning. There are so many ways to fill that struct.  
 
-In this repo I wanted to show the idiomatic way to fill a struct. This is generally used with "options" parameters. So I called it optinator. Hope you find it helpful.
+In this repo I wanted to show and idiomatic way to fill a struct. This is generally used with "options" parameters. So I called it optinator. Hope you find it helpful.
 
 Example usage:
 ```
